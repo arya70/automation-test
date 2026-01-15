@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="sanityTestCases.testcaseEmptyCredentials"/>
+      <class name="generic.BaseLoginElements"/>
+      <class name="sanityTestCases.testcaseSSOSessionE2E"/>
+      <class name="sanityTestCases.testcaseDisabledJavaScript"/>
+      <class name="sanityTestCases.testcaseSSOLogin"/>
+      <class name="sanityTestCases.testcaseCookiesDisabled"/>
+      <class name="sanityTestCases.testMultipleBrowsersTab"/>
+      <class name="testCases.testcase_1"/>
+      <class name="sanityTestCases.testcaseVeryLongCredentials"/>
+      <class name="sanityTestCases.testcaseClearBrowserCacheDuringLogin"/>
+      <class name="sanityTestCases.testcaseBackButtonAfterLogin"/>
+      <class name="testCases.testcase_4"/>
+      <class name="sanityTestCases.testcaseSSOSessionFlow"/>
+      <class name="testCases.testcase_3"/>
+      <class name="testCases.testcase_2"/>
+      <class name="sanityTestCases.testcaseSpecialCharacters"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
