@@ -36,6 +36,9 @@ public class Driver {
                 options.addArguments("--lang=en-US");
                 options.addArguments("--disable-features=Translate");
                 options.addArguments("--force-device-scale-factor=1");
+                options.addArguments("--headless=new");  // new Chrome headless
+                options.addArguments("--no-sandbox");
+                options.addArguments("--disable-dev-shm-usage");
 
                 driver = new ChromeDriver(options);
             }
